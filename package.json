@@ -1,0 +1,25 @@
+{
+  "name": "neetcode150_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthami-sukhavasi/Neetcode150_JavaScript.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Gowthami S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gowthami-sukhavasi/Neetcode150_JavaScript/issues"
+  },
+  "homepage": "https://github.com/gowthami-sukhavasi/Neetcode150_JavaScript#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
