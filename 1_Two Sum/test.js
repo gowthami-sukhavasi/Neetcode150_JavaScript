@@ -1,4 +1,4 @@
-const twoSum = require("./isAnagram");
+const twoSum = require("./twoSum");
 
 test("twoSum is a function", () => {
   expect(typeof twoSum).toEqual("function");
