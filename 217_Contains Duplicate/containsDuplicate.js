@@ -1,6 +1,6 @@
-//brute force approach:
-
 /*
+brute force approach:
+
 var containsDuplicate = function (nums) {
   var flag = 0;
 
@@ -15,11 +15,22 @@ var containsDuplicate = function (nums) {
   return false;
 };
 
-*/
+Alternate approach with Set:
 
 var containsDuplicate = function (nums) {
   const set = new Set(nums);
   return set.size != nums.length;
+};
+
+*/
+
+var containsDuplicate = function (nums) {
+  const seen = new Set();
+  for (let i = 0; i < nums.length; i++) {
+    if (seen.has(nums[i])) return true;
+    seen.add(nums[i]);
+  }
+  return false;
 };
 
 module.exports = containsDuplicate;

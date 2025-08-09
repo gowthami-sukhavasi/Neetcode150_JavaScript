@@ -6,6 +6,15 @@ var isAnagram = function (s, t) {
 };
 */
 
+/*
+In case of extra characters or spaces add a regex
+
+function isAnagram(str1, str2) {
+    const format = str =>  str.toLowerCase().replace(/[^a-z]/g,'').split('').sort().join('')
+    return format(str1) === format(str2);
+}
+*/
+
 var isAnagram = function (s, t) {
   if (s.length != t.length) return false;
   let count = {};
